@@ -1,3 +1,4 @@
+// Trigger redeploy
 import Link from "next/link";
 import React from "react";
 import Particles from "./components/particles";
@@ -43,7 +44,7 @@ export default function Home() {
         </h1>
       </div>
         <div className="animate-fade-in text-zinc-500" >
-            <GitHubCalendar username="its-varad" hideBorder={true} />
+            <GitHubCalendar username="its-varad" />
         </div>
     </div>
   );
