@@ -43,7 +43,7 @@ export default function Home() {
         </h1>
       </div>
         <div className="animate-fade-in text-zinc-500" >
-            <GitHubCalendar username="its-varad" hide_border={true} />
+            <GitHubCalendar username="its-varad" hideBorder={true} />
         </div>
     </div>
   );
